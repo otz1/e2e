@@ -1,5 +1,15 @@
 {
+  "scripts": {
+    "start": "nightwatch -t ./tests/search_results.js"
+  },
   "dependencies": {
+    "chromedriver": "^78.0.1",
     "nightwatch": "^1.2.4"
-  }
+  },
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "e2e tests for otz search engine",
+  "repository": "git@github.com:otz1/e2e.git",
+  "author": "Felix Angell <mail@felixangell.com>",
+  "license": "MIT"
 }
