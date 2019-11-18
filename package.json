@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nightwatch -t ./tests/search_results.js"
+    "test": "nightwatch -t ./tests/search_results.js"
   },
   "dependencies": {
     "chromedriver": "^78.0.1",
