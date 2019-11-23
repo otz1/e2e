@@ -3,7 +3,7 @@
     "test": "nightwatch -t ./tests/search_results.js"
   },
   "dependencies": {
-    "chromedriver": "^78.0.1",
+    "chromedriver": "73.0.0",
     "nightwatch": "^1.2.4"
   },
   "name": "e2e",
