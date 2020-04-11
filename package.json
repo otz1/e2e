@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "nightwatch -t ./tests/search_results.js"
+    "test": "git ls-files tests | xargs | nightwatch -t"
   },
   "dependencies": {
     "chromedriver": "73.0.0",
