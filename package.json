@@ -3,7 +3,7 @@
     "test": "git ls-files tests | xargs | nightwatch -t"
   },
   "dependencies": {
-    "chromedriver": "73.0.0",
+    "chromedriver": "84.0.0",
     "nightwatch": "^1.2.4"
   },
   "name": "e2e",
